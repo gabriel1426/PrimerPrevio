@@ -1,0 +1,82 @@
+
+<h3 >Registro de mensajeros</h3>
+<form class="form-horizontal" onsubmit="return false" >
+
+        <div class="form-group">
+                <label class="control-label col-sm-2" for="nombre">Nombre:</label>
+             <div class="col-sm-9">
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="apellido">Apellidos:</label>
+                    <div class="col-sm-9"> 
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Correo:</label>
+                        <div class="col-sm-9"> 
+                            <input type="email" class="form-control" id="email" placeholder="Correo">
+                        </div>
+                </div>
+            
+                <div class="form-group">
+                        <label class="control-label col-sm-2 label-inline" for="edad">Edad:</label>
+                            <div class="col-sm-3"> 
+                                <input type="number" class="form-control input-inline" id="edad" placeholder="0">
+                            </div>
+                            <label class="control-label col-sm-3 label-inline" for="fecha">Fecha de nacimiento:</label>
+                            <div class="col-sm-3"> 
+                                <input type="date" class="form-control input-inline" id="fecha" placeholder="dd/mm/aaaa">
+                            </div>
+                    </div>
+            
+                <div class="form-group">
+                        <label class="control-label col-sm-2 " > Sexo:</label>
+                 
+                        <div class="col-sm-2 col-xs-12"> 
+                       
+                                <label class="radio-inline" for="1"><input type="radio" name="optradio" id="1">Masculino</label>
+                        </div>
+                        <div class="col-sm-2 col-xs-12"> 
+                       
+                                <label class="radio-inline" for="2"><input type="radio" name="optradio" id="2">Femenino</label>
+                       
+                        </div>
+                    </div>
+            
+                    <div class="form-group">
+               
+                        <label class="control-label col-sm-2 label-inline" for="sel1">Ciudad de nacimiento:</label>
+                    <div class="col-sm-3 ">
+                            
+                    <select class="form-control select-inline" id="sel1">
+                      <option>Cucuta</option>
+                      <option>Bogota</option>
+                      <option>Medellin</option>
+                      <option>Cali</option>
+                    </select>
+                    </div> 
+                    </div>
+        
+     <div class="form-group">
+     <label class="control-label col-sm-2" for="ZONA">Zona de trabajo:</label>
+                
+     <div class="col-sm-9 ">
+      <select class="form-control" id="ZONA">
+          <option>Zona 1</option>
+          <option>Zona 2</option>
+          <option>Zona 3</option>
+          <option>Zona 4</option>
+     </select>
+      </div>
+      </div>
+
+<div class="form-group">
+    <div class="col-sm-10 col-sm-offset-4">
+    <button class="btn btn-primary" >Enviar</button>
+</div>
+
+</form>

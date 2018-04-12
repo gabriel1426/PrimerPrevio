@@ -1,0 +1,64 @@
+
+        <h3>Registro de Envios</h3>
+<form class="form-horizontal" onsubmit="return false" >
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="cliente">Cliente:</label>
+ <div class="col-sm-9">
+    <input type="text" class="form-control" id="cliente" placeholder="Cliente">
+</div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="direccion"> Direccion:</label>
+        <div class="col-sm-9"> 
+            <input type="text" class="form-control" id="direccion" placeholder="Direccion">
+        </div>
+</div>
+
+<div class="form-group">
+        <label class="control-label col-sm-2" for="pedido">Pedidio:</label>
+        <div class="col-sm-9 ">
+        <textarea class="form-control" rows="3" id="pedidio" placeholder="Pedido"></textarea>
+        </div>
+      </div>
+
+
+    <div class="form-group">
+            <label class="control-label col-sm-2"> Pago:</label>
+     <div class="radio">
+            <div class="col-sm-2 col-xs-12"> 
+           
+                    <label class="radio-inline"><input type="radio" name="optradio">Tarjeta</label>
+            </div>
+            <div class="col-sm-2 col-xs-12"> 
+           
+                    <label class="radio-inline"><input type="radio" name="optradio">Efectivo</label>
+           
+            </div>
+          
+     </div>
+   </div>
+
+   <div class="form-group">
+        
+        <label class="control-label col-sm-2" for="sel1">Tiempo de envio:</label>
+        
+        <div class="col-sm-9 ">
+        <select class="form-control" id="sel1">
+          <option>Normal</option>
+          <option>Rapido</option>
+          <option>Express</option>
+          
+        </select>
+        </div>
+      </div>
+
+
+<div class="form-group">
+    <div class="col-sm-10 col-sm-offset-4">
+    <button class="btn btn-primary" >Enviar</button>
+</div>
+</div>
+
+</form>

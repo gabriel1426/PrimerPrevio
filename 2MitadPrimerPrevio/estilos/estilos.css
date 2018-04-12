@@ -1,0 +1,16 @@
+header{
+    
+}
+body{
+
+    background: url("http://www.desenfoquegaussiano.com/titunet/wp-content/uploads/2011/11/wallpaper_december_1920x1080.jpg");
+}
+footer{
+    position: absolute;
+    
+}
+.login{
+    
+    position: fixed;
+    bottom: 0;
+}
